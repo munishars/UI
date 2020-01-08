@@ -9,10 +9,10 @@ export const environment = {
 //  domain: 'localhost:5000',
 //  host: 'http://localhost:5000/api/'
   production: true,
-  authApiUrl: 'http://gateways2.azurewebsites.net/api/users/login',
-  baseApiUrl: 'http://gateways2.azurewebsites.net/api',
+  authApiUrl: 'https://gateways2.azurewebsites.net/api/users/login',
+  baseApiUrl: 'https://gateways2.azurewebsites.net/api',
   domain: 'gateways2.azurewebsites.net',
-  host: 'http://gateways2.azurewebsites.net/api/'
+  host: 'https://gateways2.azurewebsites.net/api/'
 };
 
 
