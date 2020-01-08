@@ -3,11 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
-  authApiUrl: 'http://localhost:5000/api/users/login',
-  baseApiUrl: 'http://localhost:5000/api',
-  domain: 'localhost:5000',
-  host: 'http://localhost:5000/api/'
+ // production: false,
+//  authApiUrl: 'http://localhost:5000/api/users/login',
+//  baseApiUrl: 'http://localhost:5000/api',
+//  domain: 'localhost:5000',
+//  host: 'http://localhost:5000/api/'
+  production: true,
+  authApiUrl: 'http://gateways2.azurewebsites.net/api/users/login',
+  baseApiUrl: 'http://gateways2.azurewebsites.net/api',
+  domain: 'gateways2.azurewebsites.net',
+  host: 'http://gateways2.azurewebsites.net/api/'
 };
 
 
